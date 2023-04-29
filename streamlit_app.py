@@ -1,12 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
-# Define the app route
-@app.route('/')
-def index():
-    return render_template('index.html', name='John')
-
 # Define the Streamlit app
 def app():
     # Set the page title and favicon
@@ -19,4 +12,4 @@ def app():
     st.write(f"Hello, {name}!")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app()
