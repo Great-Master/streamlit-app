@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Omdena Cameroon</title>
+    <meta name="description" content="Automating Land Use Land Cover Classification using Machine Learning">
+    <meta name="Joseph Moturi" content="Omdena Cameroon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+     <link rel="icon" type="image/png" href="https://i.ibb.co/QdgcTVx/Favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="Favicon.png" style="display: block; margin: 0 auto">
+      <h1>Automating Land Use and Land Cover Mapping using Computer Vision and Satellite Imagery</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Project</a></li>
+        <li><a href="#contact">Prediction</a></li>
+        <li><a href="#test">Test</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2><strong>Our Journey</strong></h2>
+            <p>
+              As Omdena Cameroon Local Chapter, we have automated land use and land cover mapping using computer vision and satellite imagery to better monitor the environment, prevent conflicts, and support long-term climate adaptation efforts in Cameroon. Through this initiative, we built a machine learning model that can classify Land Use and Land Cover categories in satellite imagery. Addionally, we've generated LULC map for Cameroon, and created a web GIS dashboard to display the results. Our open-source dataset and code are available on GitHub, and we hope that they will continue to be useful for other researchers and organizations. 
+               <!-- -->
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>About Project</h2>
+            <p>
+              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+            </p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Predict</h2>
+            <p>
+              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+            </p>
+               <br>Upload Image<br>
+               <form action="" method="POST" enctype="multipart/form-data">
+               <label for="image">Choose an image:</label>
+               <br><br>
+               <input type="file" id="image" name="image">
+               <br><br>
+               <input type="submit" value="Upload">
+    </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer style="text-align: center;">  
+      Omdena Cameroon Chapter
+    </footer>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
